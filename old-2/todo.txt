@@ -1,0 +1,2 @@
+Angelo Peronio 17-09-2016
+The .tdms logging seems buggy. It seems that data at the end are missing.
