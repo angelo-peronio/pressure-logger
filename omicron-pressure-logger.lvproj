@@ -22,7 +22,7 @@
 		<Item Name="log-errors.vi" Type="VI" URL="../log-errors.vi"/>
 		<Item Name="write-hdf5-attributes.vi" Type="VI" URL="../write-hdf5-attributes.vi"/>
 		<Item Name="initialize-monthly-logfile.vi" Type="VI" URL="../initialize-monthly-logfile.vi"/>
-		<Item Name="H5Fget_name.vi" Type="VI" URL="../H5Fget_name.vi"/>
+		<Item Name="H5Fget_name-patched.vi" Type="VI" URL="../H5Fget_name-patched.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
