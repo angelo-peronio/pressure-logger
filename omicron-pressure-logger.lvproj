@@ -20,9 +20,10 @@
 		<Item Name="modbus-parameter-to-float.vi" Type="VI" URL="../modbus-parameter-to-float.vi"/>
 		<Item Name="modbus-parameter-to-string.vi" Type="VI" URL="../modbus-parameter-to-string.vi"/>
 		<Item Name="log-errors.vi" Type="VI" URL="../log-errors.vi"/>
-		<Item Name="write-hdf5-attributes.vi" Type="VI" URL="../write-hdf5-attributes.vi"/>
+		<Item Name="write-attributes.vi" Type="VI" URL="../write-attributes.vi"/>
 		<Item Name="initialize-monthly-logfile.vi" Type="VI" URL="../initialize-monthly-logfile.vi"/>
 		<Item Name="H5Fget_name-patched.vi" Type="VI" URL="../H5Fget_name-patched.vi"/>
+		<Item Name="hdf5-repack-close.vi" Type="VI" URL="../hdf5-repack-close.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="API Main.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Modbus Library/API/Wrapper/API Main.lvlib"/>
@@ -101,6 +102,10 @@
 				<Item Name="U16s to Bytes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Modbus Library/Utility/U16s to Bytes.vi"/>
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="H5A.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/h5labview2/attrib/H5A.lvlib"/>
+				<Item Name="H5G.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/h5labview2/group/H5G.lvlib"/>
+				<Item Name="h5o_type.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/h5o_type.ctl"/>
+				<Item Name="hclass_t.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/h5labview2/base/hclass_t.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
