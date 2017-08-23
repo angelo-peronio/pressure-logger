@@ -14,8 +14,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="omicron-pressure-logger.vi" Type="VI" URL="../omicron-pressure-logger.vi"/>
-		<Item Name="pressure-log-viewer.vi" Type="VI" URL="../pressure-log-viewer.vi"/>
+		<Item Name="main-pressure-logger.vi" Type="VI" URL="../main-pressure-logger.vi"/>
+		<Item Name="main-autorun.vi" Type="VI" URL="../main-autorun.vi"/>
+		<Item Name="main-log-viewer.vi" Type="VI" URL="../main-log-viewer.vi"/>
 		<Item Name="read-pressure.vi" Type="VI" URL="../read-pressure.vi"/>
 		<Item Name="modbus-parameter-to-float.vi" Type="VI" URL="../modbus-parameter-to-float.vi"/>
 		<Item Name="modbus-parameter-to-string.vi" Type="VI" URL="../modbus-parameter-to-string.vi"/>
